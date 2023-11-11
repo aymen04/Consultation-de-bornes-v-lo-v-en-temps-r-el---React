@@ -1,71 +1,48 @@
-# Getting Started with Create React App
+Projet de Localisation de Vélos - Vélo'v
+Ce projet est une application web React qui permet aux utilisateurs de trouver des stations de vélos en libre-service à Lyon. Elle utilise Leaflet pour la cartographie et l'affichage des stations.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fonctionnalités
+Affichage des stations de vélos sur une carte
+Recherche et filtre des stations par disponibilité des vélos ou des docks
+Affichage de l'itinéraire entre la position de l'utilisateur et une station sélectionnée
+Mode sombre pour une meilleure lisibilité
+Ajout et suppression de stations favorites
+Prérequis
+Avant de lancer le projet, assurez-vous d'avoir installé :
 
-## Available Scripts
+Node.js
+npm (inclus avec Node.js)
+Installation
+Pour installer le projet, suivez ces étapes :
 
-In the project directory, you can run:
+Clonez le dépôt :
 
-### `npm start`
+bash
+Copy code
+git clone [https://github.com/aymen04/Consultation-de-bornes-velo-v-en-temps-reel---React.git]
+Allez dans le dossier du projet :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+cd [velov]
+Installez les dépendances :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm install
+Lancement du Projet
+Pour lancer l'application en mode développement, exécutez :
 
-### `npm test`
+bash
+Copy code
+npm start
+Cela démarrera l'application sur http://localhost:3000. La page se rechargera si vous faites des modifications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Consultation-de-bornes-v-lo-v-en-temps-r-el---React
+Utilisation
+Ouvrez votre navigateur et accédez à http://localhost:3000.
+Utilisez la carte pour visualiser les stations disponibles.
+Cliquez sur une station pour voir l'itinéraire depuis votre position actuelle.
+Utilisez les filtres et la barre de recherche pour affiner les stations affichées.
+Cliquez sur le bouton de mode sombre pour basculer entre les thèmes clair et sombre.
+Support
+Pour toute question ou support, veuillez contacter [aymen.adline@epitech.digital].

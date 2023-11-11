@@ -1,18 +1,25 @@
-Projet de Localisation de Vélos - Vélo'v
+-- Projet de Localisation de Vélos - Vélo'v -- 
+
 Ce projet est une application web React qui permet aux utilisateurs de trouver des stations de vélos en libre-service à Lyon. Elle utilise Leaflet pour la cartographie et l'affichage des stations.
 
-Fonctionnalités
-Affichage des stations de vélos sur une carte
-Recherche et filtre des stations par disponibilité des vélos ou des docks
-Affichage de l'itinéraire entre la position de l'utilisateur et une station sélectionnée
-Mode sombre pour une meilleure lisibilité
-Ajout et suppression de stations favorites
-Prérequis
+# Fonctionnalités
+- Affichage des stations de vélos sur une carte
+- La localisation de l’utilisateur
+- Recherche et filtre des stations par disponibilité des vélos ou des docks
+- Le nombre de places disponibles de chaque station
+- Mode sombre pour une meilleure lisibilité
+- Ajout et suppression de stations favorites
+- Un dashboard des stations favorites
+
+
+
+# Prérequis
 Avant de lancer le projet, assurez-vous d'avoir installé :
 
-Node.js
-npm (inclus avec Node.js)
-Installation
+- Node.js
+- npm (inclus avec Node.js)
+
+# Installation
 Pour installer le projet, suivez ces étapes :
 
 Clonez le dépôt :

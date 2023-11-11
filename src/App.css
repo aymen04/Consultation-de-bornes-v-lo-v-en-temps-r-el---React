@@ -70,10 +70,19 @@ button:hover {
 
   .filters, .search-bar {
     width: 100%;
+    
   }
 
   input, select, button {
     width: 100%;
+  }
+
+  .toggle-dark-mode{
+    width: 30%;
+  }
+  
+  .search-bar input{
+    margin: 20px;
   }
 }
 
@@ -121,7 +130,7 @@ button:hover {
 .toggle-dark-mode {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 136px;
   padding: 10px 15px;
   font-size: 0.8em;
   border-radius: 4px;
